@@ -25,7 +25,18 @@ Self learning continues to this day. I try to always learn something new and imp
  - BEM methodology
  - Some patterns like State, Builder, Strategy and other...
 
-Code examples you can check in my GitHub and Codewars account ;)
+## Code example
+**Codewars link**: https://www.codewars.com/kata/52597aa56021e91c93000cb0
+<br/>
+```javascript
+function moveZeros(arr) {
+  return arr.sort((first, second) => {
+    if (first === 0) return 1;
+    else if (second === 0) return -1;
+    else return 0;
+  });
+}
+```
 
 ## Links
  - https://github.com/mopqpqua/to-do-list -> this is really old educational project that I made first on JavaScript and later remade it using Vue2.
